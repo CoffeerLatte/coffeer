@@ -12,6 +12,6 @@
   "author": "coffeer",
   "license": "ISC",
   "bin": {
-	  "pysatellite": "./index.js"
+    "coffeer": "./index.js"
   }
 }
