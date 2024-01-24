@@ -37,3 +37,5 @@ console.log(`
 
 
 `);
+const args = process.argv.slice(2);
+console.log("발표자:"+args[Math.floor(Math.random()*5)]);
