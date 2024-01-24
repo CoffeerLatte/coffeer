@@ -1,14 +1,17 @@
 {
   "name": "coffeer",
-  "version": "1.0.0",
-  "description": "jsm",
+  "version": "0.1.0",
+  "description": "coffeer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "pysatellite"
+    "coffeer"
   ],
   "author": "coffeer",
   "license": "ISC"
+  "bin": {
+	  "pysatellite": "./index.js"
+  }
 }
