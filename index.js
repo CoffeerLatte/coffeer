@@ -35,8 +35,19 @@ console.log(`
                                                                                                                                                       
                                                                                                                                                       
 
-
 `);
-const args = process.argv.slice(2);
-const argslength = args.length;
-console.log("발표자:"+args[Math.floor(Math.random()*argslength)]);
+class A{
+	constructor(process, num){
+	this.process = process;
+}		
+	
+}
+
+A.prototype.sr = function(){
+	const slices = process.slice(2);
+        const rand = slices[Math.floor(Math.random()*num)];
+	console.log(rand);
+}
+const fin  = new A(process.argv, process.argv.length);
+
+A.prototype.sr();
