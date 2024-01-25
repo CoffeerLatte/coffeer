@@ -35,7 +35,24 @@ console.log(`
                                                                                                                                                       
                                                                                                                                                       
 
-
 `);
-const args = process.argv.slice(2);
-console.log("발표자:"+args[Math.floor(Math.random()*5)]);
+
+const input = process.argv;
+
+const s_input = function(process){
+	 
+	return process.slice(2)
+};
+const r_input = s_input(input)[Math.floor(Math.random()*s_input(input).length)];
+
+class main {
+	constructor(){
+	}
+	call(){
+	console.log("발표자는: "+r_input);
+
+	}
+}
+const f = new main();
+f.call();
+
