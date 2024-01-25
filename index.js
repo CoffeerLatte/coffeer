@@ -36,18 +36,23 @@ console.log(`
                                                                                                                                                       
 
 `);
-class A{
-	constructor(process, num){
-	this.process = process;
-}		
-	
-}
 
-A.prototype.sr = function(){
-	const slices = process.slice(2);
-        const rand = slices[Math.floor(Math.random()*num)];
-	console.log(rand);
-}
-const fin  = new A(process.argv, process.argv.length);
+const input = process.argv;
 
-A.prototype.sr();
+const s_input = function(process){
+	 
+	return process.slice(2)
+};
+const r_input = s_input(input)[Math.floor(Math.random()*s_input(input).length)];
+
+class main {
+	constructor(){
+	}
+	call(){
+	console.log("발표자는: "+r_input);
+
+	}
+}
+const f = new main();
+f.call();
+
