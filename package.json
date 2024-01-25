@@ -1,6 +1,6 @@
 {
   "name": "coffeer",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "description": "coffeer",
   "main": "index.js",
   "scripts": {
