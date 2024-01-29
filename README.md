@@ -3,6 +3,7 @@ npm
 github
 - https://github.com/CoffeerLatte/coffeer
 
+v0.3.3
 
 ```
 
@@ -23,13 +24,14 @@ github
 
 ```
 
-
+변경점
+- [x] default param 사용
+- [x] rest param 사용
 
 
 
 제약사항
--
--
+- coffeer 명령어로 실행 시 입력 인자를 주지 않으면 undefined가 출력된다.
 
 
 
@@ -40,4 +42,4 @@ github
 
 
 
-![image](https://github.com/CoffeerLatte/coffeer/assets/125641153/fd31e031-6627-4035-b15b-547120244f66)
+![image](https://github.com/CoffeerLatte/coffeer/assets/125641153/6af746b7-4bc9-44ac-b00b-518753aa340d)
